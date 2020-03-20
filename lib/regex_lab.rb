@@ -30,5 +30,9 @@ end
 
 #Returns true for valid phone number (no formatting)
 def valid_phone_number?(phone)
-if phone.match(/\d{3}\W\d{3}\W\d{4}/)
+  if phone.match(/\d{3}\W\d{3}\W\d{4}/)
+    return true
+  else
+    return false
+  end
 end
