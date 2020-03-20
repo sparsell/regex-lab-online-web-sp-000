@@ -3,11 +3,10 @@
 #if starts with a consonant ==> false
 def starts_with_a_vowel?(word)
   if word.match(/^[aeiou]/)
-    if /^[aeiou]/.match do |vowel_word|
-
-    puts "the word starts with a vowel"
-  else
-    puts "the word starts with a consonant"
+    if word.match (\^[aeiouAEIOU])
+      return true
+    else
+    return false
   end
 end
 end
