@@ -2,8 +2,9 @@
 #if starts with a vowel ==> true
 #if starts with a consonant ==> false
 def starts_with_a_vowel?(word)
-  /[aeiou]/.match do |vowel| == 
-  
+  word.match do |vowel| == 
+    /[aeiou]/
+
 end
 end
 
