@@ -21,11 +21,11 @@ end
 
 #Returns true for text startign with a Capital letter and ending with punctuation
 def first_word_capitalized_and_ends_with_punctuation?(text)
-if text.match(/....)
-  return true
-else
-  return false
-end
+  if text.match(/....)
+    return true
+  else
+    return false
+  end
 end
 
 def valid_phone_number?(phone)
