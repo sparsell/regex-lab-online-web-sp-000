@@ -1,7 +1,7 @@
 def starts_with_a_vowel?(word)
   #{}/[aeiou]/.match(word)
   if /[aeiou]/.match(word)
-  else /[^aeiou].match(word)
+  else false
 end
 end
 
