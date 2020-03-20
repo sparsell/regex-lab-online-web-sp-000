@@ -3,7 +3,7 @@
 #if starts with a consonant ==> false
 def starts_with_a_vowel?(word)
   word =~ /[aeiou]/
-  
+
   #if word.match (/[aeiou]/)
   #  puts "true"
   #else word.match (/[^aeiou]/)
