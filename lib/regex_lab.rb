@@ -16,7 +16,7 @@ end
 
 #returns an array of words that are five letters long
 def words_five_letters_long(text)
-  text.scan(/\b\w{5}\b)
+  text.scan(/\b\w{5}\b/)
 
 end
 
